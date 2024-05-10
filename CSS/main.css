@@ -388,14 +388,12 @@ main {
 }
 
 .contenedor__map {
-    width: 80%;
+    width: 90%;
     margin: 0px auto;
-    padding: 5px;
-    background-color: #ffffff;
+    background-color: inherit;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    border-radius: 5px;
+    justify-content: center;
   }
   
   .map__items-1 {
@@ -403,6 +401,7 @@ main {
   }
   
   .direccion__parrafo {
+    color: white;
     font-size: 1em;
     margin-bottom: 20px;
   }
@@ -418,9 +417,6 @@ main {
 @media screen and (max-width: 850px) {
     .contenedor-productos {
         grid-template-columns: 1fr 1fr 1fr;
-    }
-    .contenedor__map{
-        width: 90%;
     }
 }
 
