@@ -321,7 +321,8 @@ main {
 /*** FORMULARIO ***/
 .seccion__formulario {
     background-color: #262a5f;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   
   .formulario__titulo {
@@ -369,6 +370,12 @@ main {
     outline: none;
   }
   
+  .horarios {
+    margin-left: 15px;
+    font-size: 1em;
+    color: white;
+  }
+
   .formulario__input:focus {
     border: 2px solid #ffd900;
   }
@@ -381,6 +388,11 @@ main {
     box-shadow: 2px 2px 2px;
     border-radius: 999px;
     font-size: 1em;
+  }
+  .errores {
+    text-align: center;
+    font-size: 1.2;
+    color: red;
   }
 /*** MAP ***/
 .section__map {
@@ -406,6 +418,10 @@ main {
     margin-bottom: 20px;
   }
   
+  .map {
+    height: 100%;
+    width: 100%;
+  }
   .map__items-2 {
     padding: 10px;
     height: 250px;
